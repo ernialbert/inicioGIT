@@ -1,0 +1,7 @@
+git init		- inicia proyecto.	
+git add <file>	- agrega archivo del proyecto del "working directory" al staging area
+git status		- indica el estatus de los archivos del proyecto
+git commit		- es para pasar de "staging area" al repositorio.
+git push		- es para subir al repositorio remoto.
+git pull		- traes los cambios de otros desarrolladores.
+git clone		- hace una copia desde el servidor central a tu computador.
