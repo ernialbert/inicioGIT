@@ -5,3 +5,5 @@ git commit		- es para pasar de "staging area" al repositorio.
 git push		- es para subir al repositorio remoto.
 git pull		- traes los cambios de otros desarrolladores.
 git clone		- hace una copia desde el servidor central a tu computador.
+
+git branch		- permite crear,enumerar y eliminar ramas, asi como cambiar su nombre.
