@@ -1,0 +1,1 @@
+git commit -m "he agregado un .gitignore"
