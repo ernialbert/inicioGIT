@@ -1,0 +1,17 @@
+docker pull           //instala
+docker run            // corre
+docker run -d         // corre en 2do plano.
+docker run --name     // corre con nombre personalisado de contenedor.
+docker images         // lista imagenes
+docker ps             // lista contenedores
+docker ps -a          // lista contenedores activos e inactivos
+docker rm             // borra contenedores
+docker rm -f          // forzar y borra contenedor
+docker rmi (repository:tag)           // borra imagen
+docker stop           // detiene contenedor
+docker start          // inicia contenedor
+docker exec -it (id) sh //abre una session sh terminal        
+docker logs -f (id) // muestra logs del contenedor.
+docker logs -f --details (id) //muestra logs con detalles
+docker logs -f --details -t (id)  // muestra fecha de logs
+docker logs -f --details --until=1s (id)  // muestra fecha de logs de ultimo segundo
